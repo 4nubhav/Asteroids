@@ -1,0 +1,37 @@
+#asteroid-list {
+    margin: 20px;
+}
+
+#heading-paper {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px){
+    #asteroid-list {
+        min-width: 90%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    #asteroid-list {
+        min-width: 60%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #asteroid-list {
+        min-width: 40%;
+    }
+}
