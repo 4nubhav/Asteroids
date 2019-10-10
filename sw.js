@@ -1,7 +1,6 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-try {
-    workbox.precaching.precacheAndRoute([
+workbox.precaching.precacheAndRoute([
   {
     "url": "img/icons/icon-144x144.png",
     "revision": "b905a9b6c625924e9e35f253754908d9"
@@ -59,9 +58,6 @@ try {
     "revision": "74c106802149c11c514dd44310fd9cf1"
   }
 ]);
-} catch (e) {
-    console.log(e);
-}
 
 workbox.routing.registerRoute(
     new RegExp('https://secret-meadow-61226.herokuapp.com'),
