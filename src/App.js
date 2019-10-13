@@ -2,23 +2,27 @@ import React  from 'react';
 import 'typeface-roboto'
 import { createMuiTheme } from '@material-ui/core/styles';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import SimpleAppBar from "./components/AppBar";
 import AsteroidList from "./components/AsteroidList";
+import AsteroidOne from "./components/particles/AsteroidOne";
+import AsteroidTwo from "./components/particles/AsteroidTwo";
+import Stars from "./components/particles/Stars";
 
 const theme = createMuiTheme({
     palette: {
         primary: { light: '#9a67ea', main: '#673AB7', dark: '#320b86', contrastText: '#fff' },
         secondary: { light: '#52c7b8', main: '#009688', dark: '#00675b', contrastText: '#000' },
         type: 'dark',
-        background: { paper: '#333', default: "#212121" }
+        background: { paper: '#151515', default: "#000000" }
     }
 });
 
 function App() {
     return (
-        <div style={{ paddingTop: 56 }}>
+        <div>
             <MuiThemeProvider theme={theme}>
-                <SimpleAppBar style={{ position: 'fixed', top: 0 }} />
+                <Stars/>
+                <AsteroidOne/>
+                <AsteroidTwo/>
                 <AsteroidList/>
             </MuiThemeProvider>
         </div>

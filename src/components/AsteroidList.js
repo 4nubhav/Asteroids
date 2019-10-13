@@ -5,12 +5,12 @@ import Grid from "@material-ui/core/Grid";
 import AsteroidListItem from "./AsteroidListItem";
 import Typography from "@material-ui/core/Typography";
 import {Paper} from "@material-ui/core";
-import CircularProgress from "@material-ui/core/CircularProgress";
+import LinearProgress from '@material-ui/core/LinearProgress';
 import makeStyles from "@material-ui/core/styles/makeStyles";
 
 const useStyles = makeStyles(theme => ({
-    progress: {
-        margin: theme.spacing(2),
+    root: {
+        flexGrow: 1,
     },
 }));
 
@@ -56,7 +56,10 @@ function AsteroidList() {
     if (loading) {
         return (
             <div id="progress" >
-                <CircularProgress className={classes.progress} />
+                <Typography variant="h5" color="textPrimary">LOADING...</Typography>
+                <div className={classes.root}>
+                    <LinearProgress color="secondary"/>
+                </div>
             </div>
         );
     }
@@ -66,8 +69,8 @@ function AsteroidList() {
                 <Grid item xs={12}>
                     <Grid container justify="center">
                         <div id='asteroid-list'>
-                            <Paper id='heading-paper'>
-                                <Typography variant="body1" gutterBottom>{`Near Earth Asteroids: ${res.length}`}</Typography>
+                            <Paper id='header-paper'>
+                                <Typography variant="h4" align="center" gutterBottom>{`Asteroids Today: ${res.length}`}</Typography>
                                 <PotentiallyHazardous/>
                             </Paper>
                             {asteroidList}
