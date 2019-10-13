@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "018f6de1023ca977157271c544b7e286",
+    "revision": "f7b8b5e54e8fdf17c2c3c75c7b64cbe3",
     "url": "/Asteroids/index.html"
   },
   {
-    "revision": "024b4bb354d33d0d97da",
+    "revision": "25c6d86c8c2ec6b9d4c8",
     "url": "/Asteroids/static/css/2.b20b9002.chunk.css"
   },
   {
-    "revision": "5ef7e8b31563c14ee3ed",
-    "url": "/Asteroids/static/css/main.2efc435b.chunk.css"
+    "revision": "b31d39cc34e40f6c68aa",
+    "url": "/Asteroids/static/css/main.50170a78.chunk.css"
   },
   {
-    "revision": "024b4bb354d33d0d97da",
-    "url": "/Asteroids/static/js/2.734c5043.chunk.js"
+    "revision": "25c6d86c8c2ec6b9d4c8",
+    "url": "/Asteroids/static/js/2.ddd62352.chunk.js"
   },
   {
-    "revision": "5ef7e8b31563c14ee3ed",
-    "url": "/Asteroids/static/js/main.dda701c7.chunk.js"
+    "revision": "b31d39cc34e40f6c68aa",
+    "url": "/Asteroids/static/js/main.dead2d9f.chunk.js"
   },
   {
     "revision": "65e7764938a248c5368d",
     "url": "/Asteroids/static/js/runtime-main.72554802.js"
+  },
+  {
+    "revision": "d4bd71ea6f2ee9ccf1a1e3c667014140",
+    "url": "/Asteroids/static/media/asteroid-1.d4bd71ea.png"
+  },
+  {
+    "revision": "11fe73a29ddbbfa2521729527f20b8d0",
+    "url": "/Asteroids/static/media/asteroid-2.11fe73a2.png"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
