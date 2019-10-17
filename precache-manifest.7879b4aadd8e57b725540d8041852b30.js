@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "624ea533ad0a65d3755c9c580dfa4244",
+    "revision": "fd115372cc58d40b38b7e4e09046df66",
     "url": "/Asteroids/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Asteroids/static/css/2.b20b9002.chunk.css"
   },
   {
-    "revision": "127c17876a6be17601cf",
+    "revision": "b2a487854c0a879cc84a",
     "url": "/Asteroids/static/css/main.50170a78.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Asteroids/static/js/2.ddd62352.chunk.js"
   },
   {
-    "revision": "127c17876a6be17601cf",
-    "url": "/Asteroids/static/js/main.0e544054.chunk.js"
+    "revision": "b2a487854c0a879cc84a",
+    "url": "/Asteroids/static/js/main.02757b71.chunk.js"
   },
   {
     "revision": "65e7764938a248c5368d",
