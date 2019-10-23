@@ -9,7 +9,7 @@ import Stars from "./components/particles/Stars";
 
 const theme = createMuiTheme({
     palette: {
-        primary: { light: '#9a67ea', main: '#673AB7', dark: '#320b86', contrastText: '#fff' },
+        primary: { light: '#62717b', main: '#37464f', dark: '#101f27', contrastText: '#fff' },
         secondary: { light: '#52c7b8', main: '#009688', dark: '#00675b', contrastText: '#000' },
         type: 'dark',
         background: { paper: '#151515', default: "#000000" }

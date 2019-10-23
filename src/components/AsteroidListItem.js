@@ -12,7 +12,7 @@ function AsteroidListItem(props) {
     return(
         <>
             <ExpansionPanel style={props.asteroid
-                .is_potentially_hazardous_asteroid === true ? { backgroundColor: '#673AB7' } : {}}>
+                .is_potentially_hazardous_asteroid === true ? { backgroundColor: '#37474f' } : {}}>
                 <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}>
                     <Typography variant="body1">{`${props.asteroid.name}`}</Typography>

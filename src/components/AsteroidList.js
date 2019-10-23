@@ -58,7 +58,7 @@ function AsteroidList() {
             <div id="progress" >
                 <Typography variant="h5" color="textPrimary">LOADING...</Typography>
                 <div className={classes.root}>
-                    <LinearProgress color="secondary"/>
+                    <LinearProgress color="primary"/>
                 </div>
             </div>
         );
