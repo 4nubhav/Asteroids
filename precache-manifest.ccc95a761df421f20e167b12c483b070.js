@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd115372cc58d40b38b7e4e09046df66",
+    "revision": "211688ec5fa86200549a219faca4d536",
     "url": "/Asteroids/index.html"
   },
   {
-    "revision": "25c6d86c8c2ec6b9d4c8",
-    "url": "/Asteroids/static/css/2.b20b9002.chunk.css"
+    "revision": "8e803e06d8a451007513",
+    "url": "/Asteroids/static/css/2.e4aaca1a.chunk.css"
   },
   {
-    "revision": "b2a487854c0a879cc84a",
-    "url": "/Asteroids/static/css/main.50170a78.chunk.css"
+    "revision": "988e1d97a04b1ebc83aa",
+    "url": "/Asteroids/static/css/main.ce1c6959.chunk.css"
   },
   {
-    "revision": "25c6d86c8c2ec6b9d4c8",
-    "url": "/Asteroids/static/js/2.ddd62352.chunk.js"
+    "revision": "8e803e06d8a451007513",
+    "url": "/Asteroids/static/js/2.1ce93bfd.chunk.js"
   },
   {
-    "revision": "b2a487854c0a879cc84a",
-    "url": "/Asteroids/static/js/main.02757b71.chunk.js"
+    "revision": "321bbc7d437597def870b0dc001f4797",
+    "url": "/Asteroids/static/js/2.1ce93bfd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65e7764938a248c5368d",
-    "url": "/Asteroids/static/js/runtime-main.72554802.js"
+    "revision": "988e1d97a04b1ebc83aa",
+    "url": "/Asteroids/static/js/main.88068a4c.chunk.js"
+  },
+  {
+    "revision": "3841f2bec35f73f5ae94",
+    "url": "/Asteroids/static/js/runtime-main.9e90bde1.js"
   },
   {
     "revision": "d4bd71ea6f2ee9ccf1a1e3c667014140",

@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/Asteroids/static/css/main.50170a78.chunk.css",
-    "main.js": "/Asteroids/static/js/main.02757b71.chunk.js",
-    "main.js.map": "/Asteroids/static/js/main.02757b71.chunk.js.map",
-    "runtime-main.js": "/Asteroids/static/js/runtime-main.72554802.js",
-    "runtime-main.js.map": "/Asteroids/static/js/runtime-main.72554802.js.map",
-    "static/css/2.b20b9002.chunk.css": "/Asteroids/static/css/2.b20b9002.chunk.css",
-    "static/js/2.ddd62352.chunk.js": "/Asteroids/static/js/2.ddd62352.chunk.js",
-    "static/js/2.ddd62352.chunk.js.map": "/Asteroids/static/js/2.ddd62352.chunk.js.map",
+    "main.css": "/Asteroids/static/css/main.ce1c6959.chunk.css",
+    "main.js": "/Asteroids/static/js/main.88068a4c.chunk.js",
+    "main.js.map": "/Asteroids/static/js/main.88068a4c.chunk.js.map",
+    "runtime-main.js": "/Asteroids/static/js/runtime-main.9e90bde1.js",
+    "runtime-main.js.map": "/Asteroids/static/js/runtime-main.9e90bde1.js.map",
+    "static/css/2.e4aaca1a.chunk.css": "/Asteroids/static/css/2.e4aaca1a.chunk.css",
+    "static/js/2.1ce93bfd.chunk.js": "/Asteroids/static/js/2.1ce93bfd.chunk.js",
+    "static/js/2.1ce93bfd.chunk.js.map": "/Asteroids/static/js/2.1ce93bfd.chunk.js.map",
     "index.html": "/Asteroids/index.html",
-    "precache-manifest.7879b4aadd8e57b725540d8041852b30.js": "/Asteroids/precache-manifest.7879b4aadd8e57b725540d8041852b30.js",
+    "precache-manifest.ccc95a761df421f20e167b12c483b070.js": "/Asteroids/precache-manifest.ccc95a761df421f20e167b12c483b070.js",
     "service-worker.js": "/Asteroids/service-worker.js",
-    "static/css/2.b20b9002.chunk.css.map": "/Asteroids/static/css/2.b20b9002.chunk.css.map",
-    "static/css/main.50170a78.chunk.css.map": "/Asteroids/static/css/main.50170a78.chunk.css.map",
+    "static/css/2.e4aaca1a.chunk.css.map": "/Asteroids/static/css/2.e4aaca1a.chunk.css.map",
+    "static/css/main.ce1c6959.chunk.css.map": "/Asteroids/static/css/main.ce1c6959.chunk.css.map",
+    "static/js/2.1ce93bfd.chunk.js.LICENSE.txt": "/Asteroids/static/js/2.1ce93bfd.chunk.js.LICENSE.txt",
     "static/media/asteroid-1.png": "/Asteroids/static/media/asteroid-1.d4bd71ea.png",
     "static/media/asteroid-2.png": "/Asteroids/static/media/asteroid-2.11fe73a2.png",
     "static/media/index.css": "/Asteroids/static/media/roboto-latin-900italic.ebf6d164.woff2"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e90bde1.js",
+    "static/css/2.e4aaca1a.chunk.css",
+    "static/js/2.1ce93bfd.chunk.js",
+    "static/css/main.ce1c6959.chunk.css",
+    "static/js/main.88068a4c.chunk.js"
+  ]
 }
